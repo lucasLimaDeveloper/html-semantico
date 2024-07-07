@@ -1,9 +1,3 @@
-/* Reset básico */
-* {
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove preenchimentos padrão */
-}
-
 /* Estilos gerais */
 body {
     font-family: 'Inter', sans-serif; /* Define a família de fontes para o corpo do documento */
@@ -14,8 +8,14 @@ body {
 .container {
     width: 90%; /* Largura da container com 90% da largura do viewport */
     max-width: 1200px; /* Largura máxima da container para telas maiores */
-    margin: 0 auto; /* Centraliza a container horizontalmente */
     padding: 20px; /* Espaçamento interno da container */
+}
+
+.header-container {
+    width: 90%; /* Largura da container com 90% da largura do viewport */
+    max-width: 1200px; /* Largura máxima da container para telas maiores */
+    padding: 20px; /* Espaçamento interno da container */
+    margin: 0 auto; /* Centraliza a container horizontalmente */
 }
 
 .header {
@@ -23,7 +23,8 @@ body {
     color: #fff; /* Cor do texto no cabeçalho */
     padding: 10px 0; /* Espaçamento interno no cabeçalho */
     text-align: center; /* Alinhamento do texto centralizado */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra leve abaixo do cabeçalho */
+    box-shadow: 5px 5px rgb(206, 112, 5); /* Sombra leve abaixo do cabeçalho */
+    border-radius: 5px;
 }
 
 .header-title {
@@ -51,3 +52,27 @@ body {
     font-size: 1.2rem; /* Tamanho da fonte dos links */
     transition: color 0.3s ease; /* Transição suave da cor ao passar o mouse */
 }
+
+.main {
+    background-color: rgb(19, 93, 143);
+    border-radius: 5px;
+    margin: 10px;
+    color: #fff;
+    text-align: left;
+    box-shadow: 5px 5px #b24588;
+}
+
+.promo {
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    color: #fff;
+}
+
+.footer {
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 5px 5px #4C45B2;
+}
+
